@@ -84,8 +84,7 @@ public class Ampoule {
 
         Ampoule ampoule = (Ampoule) o;
         if (puissance != ampoule.puissance) return false;
-        if (etat != ampoule.getEtat()) return false;
-        return etat == ampoule.getEtat();
+        return taille.equals(ampoule.getTaille());
     }
 
     //3.9
