@@ -78,7 +78,6 @@ public class Ampoule {
     }
 
     //8.1
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
 
@@ -88,7 +87,6 @@ public class Ampoule {
     }
 
     //3.9
-    @Override
     public String toString() {
         String chaine; // La chaine de caracteres qui sera retournee
         chaine = "L'ampoule de taille " + this.getTaille()

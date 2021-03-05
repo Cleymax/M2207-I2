@@ -55,7 +55,6 @@ public class Interrupteur {
     }
 
     //8.1
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
 
@@ -66,7 +65,6 @@ public class Interrupteur {
     }
 
     //Extras
-    @Override
     public String toString() {
         return "Interrupteur{" +
                 "couleur='" + couleur + '\'' +
